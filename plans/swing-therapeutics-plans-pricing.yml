@@ -1,0 +1,13 @@
+generated: '2026-08-29'
+method: searched
+source: https://swingtherapeutics.com/for-clinicians/
+plan_count: 0
+note: >-
+  Swing Therapeutics publishes no API plans or developer pricing because it publishes no API. Its
+  product, Stanza, is a prescription-only digital therapeutic dispensed to patients by clinician
+  prescription and reimbursed through health plans (Highmark coverage is announced on the company's
+  resources page); it is not sold as a self-serve or metered developer product and there is no
+  sign-up, tier, quota or overage surface of any kind. The for-clinicians page offers only a
+  "learn more" contact form, with no published price. plan_count: 0 is a measured absence, not an
+  unchecked field.
+plans: []

@@ -1,0 +1,111 @@
+generated: '2026-08-29'
+method: probed
+source: >-
+  Live anonymous GETs of the RFC 8615 /.well-known/ namespace on every Swing Therapeutics
+  host, 2026-08-29.
+note: >-
+  RECORDED ABSENCE, NOT A PRESENCE. Every /.well-known/ path 404s on every host Swing
+  Therapeutics controls, so no WellKnown, SecurityTxt or APICatalog pointer is emitted in
+  apis.yml — this file documents that the surface is not served. The corporate site and the
+  Swing Care clinic site are WordPress installs, stanzatherapy.com is a Squarespace site, and
+  app.swingtherapeutics.com is a Firebase-hosted mobile deep-link landing page; none of them
+  serves a discovery document. SEPARATELY: the domain swingcare.com is NOT a Swing
+  Therapeutics host — it is parked and listed for sale on GoDaddy/Afternic (NS ns1.afternic.com)
+  and answers HTTP 200 with a JS redirect to /lander for EVERY path including
+  /.well-known/agent-card.json, /openapi.json and /llms.txt. Those 200s are a parked-domain
+  catch-all, not documents, and swingcare.com is deliberately excluded from hosts[] below so
+  its soft-200s can never be read as a served surface. The company's real clinic domain is
+  swing.care.
+hosts:
+- host: swingtherapeutics.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: app.swingtherapeutics.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: www.swing.care
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: www.stanzatherapy.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null

@@ -1,0 +1,11 @@
+generated: '2026-08-29'
+method: searched
+source: https://swingtherapeutics.com/
+limit_count: 0
+note: >-
+  No rate limits are documented because Swing Therapeutics exposes no public API. Contract discovery
+  on 2026-08-29 found no developer portal, API reference, OpenAPI/GraphQL/MCP surface or any other
+  callable endpoint on swingtherapeutics.com, app.swingtherapeutics.com, www.swing.care or
+  www.stanzatherapy.com, so there is no request surface to throttle and no response headers
+  (X-RateLimit-*, RateLimit-*, Retry-After) to observe. limit_count: 0 is a measured absence.
+rate_limits: []

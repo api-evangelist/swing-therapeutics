@@ -1,17 +1,40 @@
 aid: swing-therapeutics
 name: Swing Therapeutics
-description: 'Swing Therapeutics is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Swing Therapeutics is a San Francisco digital therapeutics company founded in 2019 that develops
+  evidence-based, smartphone-delivered treatments for chronic illness. Its lead product, Stanza, is a
+  12-week prescription digital therapeutic delivering Acceptance and Commitment Therapy (ACT) for the
+  management of fibromyalgia symptoms in adults, and in 2023 it became the first digital therapeutic to
+  receive FDA De Novo marketing authorization for that indication. Stanza is prescribed by clinicians and
+  dispensed to patients as a native iOS/Android application; the company also operates Swing Care, a
+  virtual fibromyalgia clinic offering physician visits, medication management and coaching. Swing
+  Therapeutics and Swing Care were acquired by XRHealth in July 2026. The company publishes no public API,
+  developer portal, SDK or machine-readable specification — its software is delivered exclusively as a
+  regulated end-user therapy, and it is an API consumer (its clinical operations run on the Healthie
+  EHR API) rather than an API provider.
+image: https://swingtherapeutics.com/wp-content/uploads/2021/08/SWI_Favicon_L1R1@2x.png
 url: https://raw.githubusercontent.com/api-evangelist/swing-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enrichment-pass-no-api-surface
+x-parent-company: XRHealth (acquired Swing Therapeutics and Swing Care, announced July 2026)
 specificationVersion: '0.20'
 created: '2026-08-29'
 modified: '2026-08-29'
 tags:
 - Company
+- Digital Therapeutics
+- Health
+- Healthcare
+- Digital Health
+- Fibromyalgia
+- Chronic Pain
+- Behavioral Health
+- Prescription Digital Therapeutic
+- Telemedicine
+- Mobile Application
+- No Public API
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +42,51 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/swing-therapeutics-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://swingtherapeutics.com/
+- type: Support
+  url: https://swingtherapeutics.com/contact-us/
+- type: Blog
+  url: https://swingtherapeutics.com/resources/
+- type: BlogRSS
+  url: https://swingtherapeutics.com/feed/
+- type: TermsOfService
+  url: https://swingtherapeutics.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://swingtherapeutics.com/privacy-policy/
+- type: LLMsTxt
+  url: llms/swing-therapeutics-llms.txt
+- type: Plans
+  url: plans/swing-therapeutics-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/swing-therapeutics-rate-limits.yml
+x-enrichment:
+  date: '2026-08-29'
+  status: minimal
+  artifacts_added: 5
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    Swing Therapeutics ships one regulated end-user product — Stanza, a prescription-only
+    digital therapeutic dispensed to patients as a native iOS/Android app — and has no
+    developer program of any kind: api., developer. and docs.swingtherapeutics.com are all
+    NXDOMAIN, no GitHub organization exists, and the full STEP 0b contract-discovery probe set
+    404s on every host the company controls.
+  evidence:
+  - url: https://swingtherapeutics.com/openapi.json
+    status: 404
+  - url: https://swingtherapeutics.com/.well-known/api-catalog
+    status: 404
+  - url: https://app.swingtherapeutics.com/openapi.json
+    status: 404
+  - url: https://www.swing.care/.well-known/agent-card.json
+    status: 404
+  - url: https://api.github.com/orgs/swingtherapeutics
+    status: 404
+  - url: https://swingtherapeutics.com/for-clinicians/
+    status: 200
+  checked: '2026-08-29'
