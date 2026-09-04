@@ -12,6 +12,19 @@ description: >-
   developer portal, SDK or machine-readable specification — its software is delivered exclusively as a
   regulated end-user therapy, and it is an API consumer (its clinical operations run on the Healthie
   EHR API) rather than an API provider.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - rate-limits
+  - security
+  generated: '2026-09-02'
+  method: derived
 image: https://swingtherapeutics.com/wp-content/uploads/2021/08/SWI_Favicon_L1R1@2x.png
 url: https://raw.githubusercontent.com/api-evangelist/swing-therapeutics/refs/heads/main/apis.yml
 x-type: company
