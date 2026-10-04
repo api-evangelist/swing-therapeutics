@@ -46,7 +46,7 @@ tags:
 - Behavioral Health
 - Prescription Digital Therapeutic
 - Telehealth
-- Mobile Applications
+- Mobile App
 - No Public API
 tags_raw:
 - Company
@@ -61,6 +61,7 @@ tags_raw:
 - Telemedicine
 - Mobile Application
 - No Public API
+- Mobile Applications
 apis: []
 maintainers:
 - FN: Kin Lane
