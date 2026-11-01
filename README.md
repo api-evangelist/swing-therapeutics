@@ -64,5 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Swing Therapeutics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Swing Therapeutics is a San Francisco digital therapeutics company founded in 2019 that develops evidence-based, smartphone-delivered treatments for chronic illness. Its lead product, Stanza, is a 12-week prescription digital therapeutic delivering Acceptance and Commitment Therapy (ACT) for the management of fibromyalgia symptoms in adults, and in 2023 it became the first digital therapeutic to receive FDA De Novo marketing authorization for that indication. Stanza is prescribed by clinicians and dispensed to patients as a native iOS/Android application; the company also operates Swing Care, a virtual fibromyalgia clinic offering physician visits, medication management and coaching. Swing Therapeutics and Swing Care were acquired by XRHealth in July 2026. The company publishes no public API, developer portal, SDK or machine-readable specification — its software is delivered exclusively as a regulated end-user therapy, and it is an API consumer (its clinical operations run on the Healthie EHR API) rather than an API provider.
+
+**Areas:** Company · Digital Therapeutics · Health · Healthcare · Digital Health · Fibromyalgia · Chronic Pain · Behavioral Health · Prescription Digital Therapeutic · Telehealth · Mobile App
+
+## Swing Therapeutics on APIs.io
+
+Everything profiled for Swing Therapeutics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/swing-therapeutics/](https://apis.io/providers/swing-therapeutics/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Swing Therapeutics Domain Security](https://apis.io/security/swing-therapeutics/swing-therapeutics-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Swing Therapeutics Plans Pricing](https://apis.io/plans/swing-therapeutics/swing-therapeutics-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Swing Therapeutics Rate Limits](https://apis.io/rate-limits/swing-therapeutics/swing-therapeutics-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://swingtherapeutics.com/)
+- [Support](https://swingtherapeutics.com/contact-us/)
+- [Blog](https://swingtherapeutics.com/resources/)
+- [Terms of service](https://swingtherapeutics.com/terms-of-use/)
+- [Privacy policy](https://swingtherapeutics.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 11.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/swing-therapeutics/](https://apis.io/providers/swing-therapeutics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Swing Therapeutics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/swing-therapeutics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
